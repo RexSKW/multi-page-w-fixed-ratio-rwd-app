@@ -1,0 +1,21 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  background-color: black;
+  height: 100%;
+}
+
+:root {
+  --basic-size: 1vh;
+
+  @media (max-aspect-ratio: 16 / 9) {
+    --basic-size: 1vw * 9 / 16;
+  }
+}
