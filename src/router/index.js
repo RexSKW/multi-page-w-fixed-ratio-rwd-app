@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import LoginPageView from '../views/LoginPageView/LoginPageView.vue';
+import LoginPageView from '@/views/LoginPageView/LoginPageView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
